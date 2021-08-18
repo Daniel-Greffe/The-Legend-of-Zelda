@@ -1,0 +1,145 @@
+/* Paleta de Cores
+Cor do Fundo (Preto Claro): #141212
+Preto: #000000
+Vermelho: #961212
+Cinza: #5C5A5A
+Branco: #FFFFFF
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #2C5C78;
+    height: 100%;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: #0E84C7;
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#div_menu {
+    background-color: rgba(77, 245, 71, 0.8);
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    transition: all 0.5s;
+}
+
+.nav_menu {
+    max-width: 250px;
+    height: 100%;
+    position: absolute;
+}
+
+
+/* Imagem que abre o Menu */
+
+header input[type="checkbox"] {
+    display: none;
+}
+
+
+#img_menu_img {
+    width: 30px;
+    transition: 0.3s;
+}
+
+header label {
+    top: 9px;
+    padding: 8px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+}
+
+header label:hover img {
+    transform: scale(1.01);
+    background-color: rgba(160, 160, 160, 0.3);
+    border-radius: 4px;
+}
+
+header input[type="checkbox"]:checked~#div_menu {
+    transform: translateX(250px);
+}
+
+
+/* Lista do Menu */
+.lista_menu {
+    top: 62px;
+    list-style: none;
+    position: absolute;
+    width: 250px;
+}
+
+
+.item_menu {
+    display: initial;
+}
+
+
+.link_menu {
+    font-family: Calibri;
+    font-size: 23px;
+    color: #FFFFFF;
+    padding: 20px 15px;
+    display: block;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+
+/*Efeito dos Itens*/
+#nav_menu ul li a:hover {
+    background-color: rgb(204, 204, 204);
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#link_atual {
+    font-family: Calibri;
+    font-size: 23px;
+    color: #FFFFFF;
+    padding: 20px 15px;
+    display: block;
+    text-decoration: underline;
+    transition: all .4s;
+}
+
+
+/* Título Header */
+
+#div_titulo {
+    height: 100%;   
+    width: 100%;
+    position: relative;
+}
+
+#titulo_header {
+    font-size: 40px;
+    color: #FFFFFF;
+    top: 0px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    padding: 3px;
+}
