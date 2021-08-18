@@ -114,11 +114,39 @@ select {
     transform: scale(1.1);
 }
 
+#flex_enviar :hover img{
+    transform: scale(1.1);
+
+}
+
+#flex_enviar{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    position: relative;
+}
+
+#flex_enviar img{
+    position: relative;
+    top: 18vh;
+    filter: drop-shadow( 5px 5px 0px rgb(5, 180, 5) );
+}
+#zoeira{
+    position: relative;
+    left: 20vh;
+
+}
+
+#zoeira_2{
+    position: relative;
+    right: 15vh;
+}
+
 
 /* Rodapé */
 
 footer {
-    top: 250%;
+    top: 290%;
     width: 100%;
     color: #FFFFFF;
     text-align: center;

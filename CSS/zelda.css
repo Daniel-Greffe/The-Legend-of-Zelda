@@ -473,7 +473,15 @@ Branco: #FFFFFF
     transform: scale(1.1);
 }
 
-
+audio{
+    width: 40%;
+    margin-top: 10%;
+}
+#audio_1{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
 
 /*Rodapé*/
 

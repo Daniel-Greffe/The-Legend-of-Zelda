@@ -47,24 +47,21 @@
             <h1 id="titulo">Contato</h1>
 
             <div id="div_form">
-    
+
                 <form id="formContato" action="./contato.js" method="POST" onsubmit="return validarCampos()">
 
                     <div class="div-mensagem"><span id="msgErro"></span></div>
 
                     <label for="nomesobrenome">Nome e Sobrenome</label>
-                    <input class="input_padrao" type="text" id="nomesobrenome" name="nome"
-                        placeholder="Daniel Cardoso">
+                    <input class="input_padrao" type="text" id="nomesobrenome" name="nome" placeholder="Daniel Cardoso">
 
                     <br>
                     <label for="email">Email</label>
-                    <input class="input_padrao" type="email" id="email" name="email"
-                        placeholder="email@dominio.com">
+                    <input class="input_padrao" type="email" id="email" name="email" placeholder="email@dominio.com">
 
                     <br>
                     <label for="telefone">Telefone</label>
-                    <input class="input_padrao" type="tel" id="telefone" name="telefone"
-                        placeholder="(00) 0000-0000">
+                    <input class="input_padrao" type="tel" id="telefone" name="telefone" placeholder="(00) 0000-0000">
 
                     <br>
                     <label for="mensagens">Mensagens</label>
@@ -99,12 +96,20 @@
                             <option>Noite</option>
                         </select>
                     </div>
-                    <div id="div_enviar">
-                        <input id="enviar" type="submit" name="acao" value="Enviar Formulário">
-                    </div>
 
+                    <div id="flex_enviar">
+                        <div id="zoeira">
+                            <img src="./Imagens/link-removebg-preview.png" alt="">
+                        </div>
+                        <div id="div_enviar">
+                            <input id="enviar" type="submit" name="acao" value="Enviar Formulário">
+                        </div>
+                        <div id="zoeira_2">
+                            <img src="./Imagens/link-removebg-preview.png" alt="">
+                        </div>
+                    </div>
                 </form>
-                
+
             </div>
 
         </div>

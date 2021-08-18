@@ -29,7 +29,7 @@ main {
 }
 
 .descricao {
-    text-indent: 0em;
+    text-indent: 2em;
     color: #FFFFFF;
     font-size: max(15px, 1.5vw);
     position: relative;
@@ -96,6 +96,7 @@ h2 {
     color: #FFFFFF;
     font-size: max(35px, 3vw);
     top: 50vh;
+    margin-left: 37%;
 }
 
 #div_nomes {
